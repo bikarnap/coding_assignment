@@ -1,0 +1,28 @@
+{
+  "emails": [
+    {
+      "id": 1,
+      "email": "jane.doe@jane.com"
+    },
+    {
+      "id": 2,
+      "email": "sweetybhagwat@timtim.com"
+    },
+    {
+      "id": 3,
+      "email": "liam.michael@freedom.org"
+    },
+    {
+      "email": "bikarnap@gmail.com",
+      "id": 4
+    },
+    {
+      "email": "bikarna.pokharel@tuni.fi",
+      "id": 5
+    },
+    {
+      "email": "my.email@email.com",
+      "id": 6
+    }
+  ]
+}

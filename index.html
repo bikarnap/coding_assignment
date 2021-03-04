@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Email subscription</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css" type="text/css" />
+    </head>
+    <body>
+        <div id="form-wrapper">
+            <div>
+                <p id="subscribe-head">Subscribe to our mailing list and stay tuned!</p>
+            </div>
+            <div>
+                <form id="form" method="POST">
+                    <label for="email" name="email">Email</label>
+                    <input type="email" 
+                        name="email" 
+                        id="email" 
+                        placeholder="example@example.com" 
+                        value="" 
+                        aria-label="email address"
+                        required
+                    />
+                    <div>
+                        <button 
+                            id="subscribe" 
+                            type="submit"
+                        >Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script src="src/index.js"></script>
+    </body>
+</html>
